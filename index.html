@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>F1 Tweets - Follow F1 fans through the power of twitter</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script type="text/javascript" charset="utf-8" src="js/jquery-1.3.2.min.js"></script>
+	<script src="js/f1tweets.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/fancyzoom.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+			
+		$('#medium_box_link').fancyZoom({width:400, height:300});
+			
+			// Test code block to seperate later
+		 
+		
+			$('#theme-lighter').live("click",function(){
+				console.log("called");
+				$('a').toggleClass("theme-lighter-a");
+			});
+			
+			
+		});
+	</script>
+<!--	<script type="text/javascript" charset="utf-8" src="js/f1tweets_minimized.js"></script> -->
+	<meta name="verify-v1" content="zvrQGRzg8OEwd9O8T3ktleS/vvzJdyqITVYcUwXO5l4=" />	
+	<meta name="keywords" content="Twitter, Formula 1 Racing, fans, follow, f1, racing, cars, leu, iamleu.com" />
+	<meta name="description" content="A place for Formula 1 racing fans to see everyones views via the power of twitter search" />
+
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="nav">
+
+			<ul>
+				<li><img src="images/f1avatar_normal.jpg" width="30" height="30" alt="F1avatar Normal" title="F1 Tweets" /></li>
+				<!-- <li>F1 TWEETS</li> -->
+				<li>&nbsp;</li>
+				<li><a href="index.html">Home</a>&nbsp;</li>
+				<li> | <a href="#medium_box" id="medium_box_link">Change Theme</a>&nbsp;</li>
+				<li> | <a href="what-is-this-f1tweet-thing.html">About</a>&nbsp;</li>
+				<li> | <a href="could-i-have-a-feed-for-this.html">RSS Feeds</a>&nbsp;</li>
+				<li> | <a href="we-have-views-and-comments-to-make.html">Contact</a><li>
+			</ul>
+		</div>
+		
+		<div id="left-link">
+			<ul id="driver-list">
+				<li id="f1">Formula 1</li>
+				
+				<li id="mclaren">Mclaren</li>
+					<ul>
+					<li id="lewis">Lewis Hamilton</li>
+					<li id="hekki">Heikki Kovalainen</li>
+					</ul>
+				
+				<li id="ferrari">Ferrari</li>
+				 <ul>
+					<li id="felipe">Felipe Massa</li>
+					<li id="kimi">Kimi Raikkonen</li>
+				</ul>
+				
+				<li id="bmw">BMW Sauber</li>
+				 <ul>
+					<li id="robert">Robert Kubica</li> 
+					<li id="nick">Nick Heidfeld</li>
+				</ul>
+
+				<li id="renault">Renault</li>
+				 <ul>
+					<li id="fernando">Fernando Alonso</li> 
+					<li id="nelson">Nelson Piquet Jr</li>
+				</ul>
+				
+				<li id="toyota">Toyota</li>
+				 <ul>
+					<li id="jarno">Jarno Trulli</li> 
+					<li id="timo">Timo Glock</li>
+				</ul>
+				
+				<li id="toro">Toro Rosso-Ferrari</li>
+				 <ul>
+					<li id="bourdais">Sebastien Bourdais</li> 
+					<li id="buemi">Sebastien Buemi</li>
+				</ul>
+				
+				<li id="redbull">Red Bull-Renault</li>
+				 <ul>
+					<li id="mark">Mark Webber</li> 
+					<li id="vettel">Sebastian Vettel</li>
+				</ul>
+				
+				<li id="williams">Williams-Toyota</li>
+				 <ul>
+					<li id="nico">Nico Rosberg</li> 
+					<li id="kazuki">Kazuki Nakajima</li>
+				</ul>
+				
+				<li id="force">Force India</li>
+				 <ul>
+					<li id="adrian">Adrian Sutil</li> 
+					<li id="giancarlo">Giancarlo Fisichella</li>
+				</ul>
+				
+				<li id="brawn">Brawn GP</li>
+				 <ul>
+					<li id="jenson">Jenson Button</li> 
+					<li id="rubens">Rubens Barrichello</li>
+				</ul>
+				
+			</ul>
+		</div>
+		
+		<div id="tweet-feed">
+		
+			
+		</div>
+	</div>
+	<!-- Theme Chooser -->
+	<div id="medium_box">
+		<h2>Change Your Theme</h2>
+		<p>Not happy with the current theme, then feel free to choose another</p>
+		
+		<a href="#" id="theme-lighter">Lighter Theme</a>
+	</div>
+	<!-- User Voice Support Code -->
+	<script type="text/javascript">
+	var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+	document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+	</script>
+	<script type="text/javascript">
+	UserVoice.Tab.show({ 
+	  key: 'f1tweets',
+	  host: 'f1tweets.uservoice.com', 
+	  forum: 'general', 
+	  alignment: 'right', /* 'left', 'right' */
+	  background_color:'#06C', 
+	  text_color: 'white', /* 'white', 'black' */
+	  hover_color: '#f00',
+	  lang: 'en' /* 'en', 'de', 'nl', 'es', 'fr' */
+	})
+	</script>
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-2761196-5");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+</body>
+</html>

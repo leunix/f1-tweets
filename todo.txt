@@ -1,0 +1,6 @@
+TODO 
+
+Allow people to login into twitter (via Oauth) then they can comment on the race/qualifying etc as they see results
+means they don't have to use another app/site
+
+tie all this intogether with an Adobe Air App 
